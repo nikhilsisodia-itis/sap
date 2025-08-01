@@ -57,3 +57,37 @@
     - SAP HANA - In-memory database technology
     - Fiori / UI5 - Modern user interface development
 
+8. What is the architecture of SAP?
+- SAP follows a 3-tier Client-Server architecture.
+- 3-tier architecture:
+    - Layer 1: The Presentation Layer(Front-end):
+        - The User Interface.
+        - Screen or App used to access SAP.
+        - Sends user input to the Application layer, and displays results.
+    - Layer 2: The Application Layer(Middle-tier):
+        - The Brain of SAP.
+        - Processes business logic.
+        - Execute ABAP programs.
+        - Handles communication between the presentaion and database.
+    - Layer 3: The Database Layer(Back-end):
+        - Stores all data: Users data, configurations.
+
+9. What are landscapes and its types in SAP?
+- Landscapes are arrangements of SAP systems(Environments) where different types of work are done.
+- Need: So, building, and testing can be isolted from the live production environment- as the development system can be broked.
+- Types:
+    1. Single-system landscape: 
+        - Has only 1 system or environment.
+        - Used for small demos or training purposes.
+        - No separate environment for developing, testing, and production.
+        - Not safe for real business use.
+    2. Two-system landscape:
+        - Has two environments: Devlopment and Production.
+        - Changes are made in development and moved to production.
+        - Unsafe: No testing environment.
+    3. Three-system landscape:
+        - Most common and best practice in real SAP projects.
+        - Has three separate environments: Development, Testing, and Production environment.
+    4. Four-system landscape:
+        - Used by large companies or organizations.
+        - Sandbox, Training System, and Pre-production environments can be added along with Three-layer landscape.
