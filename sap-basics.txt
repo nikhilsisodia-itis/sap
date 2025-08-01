@@ -1,0 +1,97 @@
+Sap Basics
+
+1. What is SAP?
+- SAP stands for:
+    - S : Systems, 
+    - A: Applications, and 
+    - P: Products, in Data Processing.
+- German based software company.
+- Founded: 1972.
+- Product(Software name): SAP.
+
+2. What does SAP make?
+- SAP make ERP systems.
+- ERP Systems: Enterprise Resource Planning Systems.
+
+3. What is sap used for SAP?
+- SAP is used by Businesses to manage the following core functionalities:
+    - Finance
+    - Supply Chain
+    - Human Resources
+    - Sales
+    - Production
+    - Customer Service
+
+4. What is the Goal of SAP?
+- The Goal of SAP:
+    - Integrate all business processes into one System.
+    - Centralized Database for all the business functionalities.
+
+5. What is an ERP System?
+- ERP system act as a Central Nervous System, that makes every process work together in a Sync.
+- Integrate all the depratments and functions of a company into a single system.
+- Assists in serving the needs of different departments and functions.
+
+6. Why do companies use SAP?
+- To avoid data duplication and errors.
+- To have real-time data across departments.
+- To automate and streamline processes.
+- To follow best practices and industry standards.
+- To scale easily as the company grows.
+- To manage multi-location, multi-country operations.
+
+7. What are SAP core components?
+- SAP core components are divided into Functional and Technical areas.
+- Functional Modules(Components):
+    - FI - Financial accounting
+    - CO - Controlling
+    - MM - Materials Management
+    - SD - Sales and Distribution
+    - PP - Production Planning
+    - HR - Human Resource
+    - WM / EWM - Warehouse Management
+
+- Technical Modules:
+    - ABAP - Programming language used in SAP
+    - BASIS - System Administration
+    - SAP HANA - In-memory database technology
+    - Fiori / UI5 - Modern user interface development
+
+8. What is the architecture of SAP?
+- SAP follows a 3-tier Client-Server architecture.
+- 3-tier architecture:
+    - Layer 1: The Presentation Layer(Front-end):
+        - The User Interface.
+        - Screen or App used to access SAP.
+        - Sends user input to the Application layer, and displays results.
+    - Layer 2: The Application Layer(Middle-tier):
+        - The Brain of SAP.
+        - Processes business logic.
+        - Execute ABAP programs.
+        - Handles communication between the presentaion and database.
+    - Layer 3: The Database Layer(Back-end):
+        - Stores all data: Users data, configurations.
+
+9. What are landscapes and its types in SAP?
+- Landscapes are arrangements of SAP systems(Environments) where different types of work are done.
+- Need: So, building, and testing can be isolted from the live production environment- as the development system can be broked.
+- Types:
+    1. Single-system landscape: 
+        - Has only 1 system or environment.
+        - Used for small demos or training purposes.
+        - No separate environment for developing, testing, and production.
+        - Not safe for real business use.
+    2. Two-system landscape:
+        - Has two environments: Devlopment and Production.
+        - Changes are made in development and moved to production.
+        - Unsafe: No testing environment.
+    3. Three-system landscape:
+        - Most common and best practice in real SAP projects.
+        - Has three separate environments: Development, Testing, and Production environment.
+    4. Four-system landscape:
+        - Used by large companies or organizations.
+        - Sandbox, Training System, and Pre-production environments can be added along with Three-layer landscape.
+
+10. What is Transport path?
+- When changes are made in SAP, they are not copied manually.
+- SAP has a Transport Management System(TMS) to move changes from one environment to another.
